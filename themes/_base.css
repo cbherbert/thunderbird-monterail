@@ -53,10 +53,10 @@
 	}
 }
 
-toolbar > toolbarbutton {
-	margin-right: 10px !important;
-	margin-left: 10px !important;
-}
+/* toolbar > toolbarbutton { */
+/* 	margin-right: 10px !important; */
+/* 	margin-left: 10px !important; */
+/* } */
 
 box, hbox, vbox, toolbox {
 	box-shadow: none !important;
@@ -72,7 +72,7 @@ splitter {
   display: none !important;
   height: 0px !important;
 }
-	
+
 menu[disabled="true"] label, menuitem[disabled="true"] label, .splitmenu-menuitem[disabled="true"] label, menucaption[disabled="true"] label,
 .chromeclass-toolbar menu[disabled="true"] label, .chromeclass-toolbar menuitem[disabled="true"] label, .chromeclass-toolbar .splitmenu-menuitem[disabled="true"] label, .chromeclass-toolbar menucaption[disabled="true"] label {
   color: grey !important;
@@ -200,7 +200,7 @@ scrollbar {
 srollbarbutton {
 	width: 10px !important;
 	max-width:10px !important;
-}	
+}
 
 slider {
 	width: 10px !important;
@@ -259,7 +259,7 @@ thumb:hover {
 #expandedHeader2Rows #expandedreply-toRow {
 	display: none !important;
 }
-	
+
 #expandedsubjectBox .headerValue {
 	font-size: var(--subject-line-font-size) !important;
 }

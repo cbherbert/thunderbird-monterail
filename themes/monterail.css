@@ -100,6 +100,10 @@
 	color: var(--monterail-text-color) !important;
 }
 
+.chromeclass-toolbar, .chromeclass-toolbar * {
+	color: var(--monterail-light-text-color) !important;
+}
+
 #navigation-toolbox .menubar-text, .splitmenu-menuitem label, menucaption label, .chromeclass-toolbar menu label, .chromeclass-toolbar menuitem label, .chromeclass-toolbar .splitmenu-menuitem label, .chromeclass-toolbar menucaption label {
   color: var(--monterail-text-color) !important;
 }
@@ -139,6 +143,3 @@ menuseparator {
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
 }
 
- .toolbarbutton-1, .toolbarbutton-menubutton-button, #composeToolbar2{
-     color: var(--dark-text-color) !important;
- }
